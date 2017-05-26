@@ -1,0 +1,91 @@
+.jumbotron-image {
+	background-image: url(../images/jumbotron_image2.jpg);
+	background-size: 100%;
+}
+  
+.quote {
+	font-style: italic;
+	color: green;
+}
+
+/*-----------------------------------------------
+			Skills section style
+  ------------------------------------------------*/
+#skills {
+	padding-top: 20px;
+}
+.skills-head {
+	padding-bottom: 100px;
+	line-height: 50px;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    color: #F7B733;
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+}
+
+.Skills-container {
+	padding: 5px 0;
+	background: #4ABDAC;
+}
+/*-----------------------------------------------
+			End Skills section style
+  ------------------------------------------------*/
+
+  
+  
+/*-----------------------------------------------
+			Portfolio section style
+  ------------------------------------------------*/
+#portfolio {
+	padding: 40px 0;
+	background: #FC4A1A;  
+}
+.portfolio-head {
+	padding-bottom: 20px;
+	line-height: 50px;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+}
+/*-----------------------------------------------
+			End Portfolio section style
+  ------------------------------------------------*/  
+  
+/*-----------------------------------------------
+			Footer section style
+  ------------------------------------------------*/
+footer {
+	width: 100%;
+	background-color: #4ABDAC;
+	padding: 100px 0px;
+	text-align: center;
+}
+.contact {
+	padding-bottom: 20px;
+	line-height: 50px;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+}
+.contact h2{
+	border-bottom:4px solid #F7B733;
+}
+.contact ul{
+	margin-top: 10px;
+}
+.contact li{
+	display: inline;
+}
+
+/*-----------------------------------------------
+			End Footer section style
+  ------------------------------------------------*/   
+  
+  
+  
+  
