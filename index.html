@@ -26,7 +26,7 @@
 			<a class="navbar-brand" href="#home">
 				<img src="./images/logo.png" alt="" width="150" height="58">
 			</a>
-
+			<!-- /Brand-->
 			<!-- Menu -->
 			<div class="collapse navbar-collapse justify-content-end" id="nav-content">   
 				<ul class="navbar-nav">
@@ -48,6 +48,7 @@
 				</ul>
 			</div>
 			<!-- /Menu -->
+			
 		</nav>
 		<!-- /Navigation -->
 	
@@ -92,7 +93,7 @@
 							<img class="img-fluid" src="./images/CSS3_logo.png" alt=""/>
 						</div>
 						<div class="col md-5">
-							<img class="img-fluid" src="./images/js_Logo.png" alt=""/>
+							<img class="img-fluid" src="./images/js_logo.png" alt=""/>
 						</div>
 						<div class="col md-5">
 							<img class="img-fluid" src="./images/SQL_logo.jpg" alt=""/>
@@ -114,30 +115,34 @@
 			<div class="portfolio-head">
 				<h2>Portfolio</h2>
 			</div>
-			<div class="container text-white">
+			<div class="container text-white text-center">
 				<div class="row">
-					<div class="col-md-4 pt-5">
+					<div class="col-md-4 pt-5 ">
 						<h3><center>Party Rock App</center></h3>
 						<img class="img-fluid" src="./images/Party_Rock_App.png" alt=""/>
-						<p class="text-white">I have built a party rock app using swift. This app is built to show top music videos for a particular music group by streaming the video from youtube onto the app.</p>
+						<br><br>
+						<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#Party">Details</button>
 					</div>
-					<div class="col-md-4 pt-5 text-white">
+					<div class="col-md-4 pt-5">
 						<h3><center>Guided Hikes</center></h3>
 						<img class="img-fluid" src="./images/Guided_Hikes.png" alt=""/>
-						<p class="text-white">I built a website where people can look at the images of the available guided hikes that are offer. Visitors then are able to navigate down to the form and enter information to RSVP for a guided hike. </p>
+						<br><br>
+						<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#Hikes">Details</button>
 					</div>
-					<div class="col-md-4 pt-5 text-white">
+					<div class="col-md-4 pt-5">
 						<h3><center>Retro Calculator App</center></h3>
 						<img class="img-fluid" src="./images/retro_calculator.png" alt=""/>
-						<p class="text-white">I have built a retro calculator app using swift 3. This calculator also has an added audio button sounds.</p>
+						<br><br>
+						<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#Calculator">Details</button>
 					</div>
-					<div class="col-md-4 pt-5 text-white">
+					<div class="col-md-4 pt-5">
 						<h3><center>Login Page</center></h3>
 						<img class="img-fluid" src="./images/login_page.PNG" alt=""/>
-						<p class="text-white">I created a front-end login page that adjusts to any screen size including mobile phones screens.</p>
+						<br><br>
+						<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#Login">Details</button>
 					</div>
 				</div>
-				<p><center>You can find all my projects below by clicking on my GitHub link.</center></p>
+				<p><center><strong>You can find a link to all my projects below by clicking on my GitHub Icon.</strong></center></p>
 			</div>
 		</div>
 		<!-- /Portfolio -->
@@ -158,6 +163,104 @@
 		</footer>
 		
 		<!-- /Contact me-->
+
+		<!-- Party Rock modal -->
+			<div class="modal fade" id="Party">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title display-4 ">Party Rock</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+						
+							<fieldset class="form-group">
+								<img class="img-fluid" src="./images/Party_Rock_App.png" alt=""/>
+								<p>I have built a music app using swift. This app plays top music videos for LMFAO music group by streaming the videos from youtube onto the app.</p>
+							</fieldset>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- /party Rock modal-->
+
+		<!-- Hikes modal -->
+			<div class="modal fade" id="Hikes">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title display-4">Guided Hikes</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<fieldset class="form-group">
+								<img class="img-fluid" src="./images/Guided_Hikes.png" alt=""/>
+								<p>I built a website where visiter can look at the images of the available guided hikes that are offerd. Visitors then are able to navigate down to the form and enter thier information to RSVP for the guided hike.</p>
+							</fieldset>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- /Hikes modal-->
+
+
+		<!-- Retro Calculator modal -->
+			<div class="modal fade" id="Calculator">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title display-4">Retro Calculator</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<fieldset class="form-group">
+								<img class="img-fluid" src="./images/retro_calculator.png" alt=""/>
+								<p>I have built a retro style calculator app using swift 3. I have incorporated audio to the buttons, so when they are pressed they play a sound.</p>
+							</fieldset>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- /Retro Calculator modal-->
+
+		<!-- Login project modal -->
+			<div class="modal fade" id="Login">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title display-4">Login Page</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<fieldset class="form-group">
+								<img class="img-fluid" src="./images/login_page.PNG" alt=""/>
+								<p>I created a front-end login page that adjusts to any screen size including mobile phones.</p>
+							</fieldset>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- /Login project modal-->
 	
 	</div>
 	<!-- / Page Content  -->
