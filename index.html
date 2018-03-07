@@ -5,16 +5,16 @@
 	<title>Suhaib Al-Tamimi</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="./css/portfolio_styl.css">
-
+	
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  </head>
-  <body id="home">
+	<link rel="stylesheet" href="./css/portfolio_styl.css">
+</head>
+  <body>
   
   
 	<!-- Page Content  -->
-	<div class="container">
+	<div class="container"  id="home">
 		
 		<!-- Navigation -->
 		<nav class="navbar navbar-toggleable-md fixed-top navbar-inverse bg-inverse">
@@ -34,7 +34,7 @@
 						<a class="nav-link" href="#home">HOME</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#about">ABOUT ME</a>
+						<a class="nav-link" href="#about">ABOUT</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#skills">SKILLS</a>
@@ -46,18 +46,19 @@
 						<a class="nav-link" href="#contact">CONTACT ME</a>
 					</li>
 				</ul>
-			</div>
+			</div>	
 			<!-- /Menu -->
 			
 		</nav>
 		<!-- /Navigation -->
 	
-		
+	</div>
 		<!-- Jumbotron -->
 		<div class="jumbotron jumbotron-fluid jumbotron-image mt-5">
+				<h1 class="display-4 text-white jumbotron-text">Suhaib Al-Tamimi</h1>
+				<p class="lead text-white jumbotron-text">Software Developer</p>
 			<div class="container">
-				<h1 class="display-4 text-white">Suhaib Al-Tamimi</h1>
-				<p class="lead text-white">Software Developer</p>
+				
 			</div>
 		</div>
 		<!-- /Jumbotron -->
@@ -66,7 +67,7 @@
 		<div class="container" id="about">
 			<div class="row">
 				<div class="col text-center">
-					<h2>About me</h2>
+					<h2 class="about-section">ABOUT</h2>
 					<h5 class="quote mt-3 mb-3">The capacity to learn is a gift; the ability to learn is a skill; the willingness to learn is a choice.   -Brian Herbert</h5>
 					<p>Hello, I’m Suhaib Al-Tamimi and I’m a Software Developer. I have worked in the healthcare industry on the software side and on the program 
 					coordinator side. I have a need to add value by learning new skills and that is how I got interested in software development. 
@@ -81,30 +82,62 @@
 		
 		<!-- Skills -->
 		<div class="Skills-container" id="skills">
-			<div class="skills-head" >
-				<h2>Development Skills</h2>
-			</div>
-				<div class="container my-4 text-white">
-					<div class="row" id="skills">
-						<div class="col md-5">
+				<h2 class="skills-head">SKILLS</h2>
+				<div class="container">
+					<div class="row">
+						<div class="col md-5 text-center image-hover">
 							<img class="img-fluid" src="./images/HTML5_Logo.png" alt=""/>
+							<p class="icon-name", id="HTML5">HTML5</p>
 						</div>
-						<div class="col md-5">
+						<div class="col md-5 text-center image-hover">
 							<img class="img-fluid" src="./images/CSS3_logo.png" alt=""/>
+							<p class="icon-name", id="CSS3">CSS3</p>
 						</div>
-						<div class="col md-5">
+						<div class="col md-5 text-center image-hover">
 							<img class="img-fluid" src="./images/js_Logo.jpg" alt=""/>
-						</div>
-						<div class="col md-5">
-							<img class="img-fluid" src="./images/SQL_logo.jpg" alt=""/>
-						</div>
-						<div class="col md-5">
-							<img class="img-fluid" src="./images/git_logo.png" alt=""/>
-						</div>
-						<div class="col md-5">
-							<img class="img-fluid" src="./images/swift_logo.jpg" alt=""/>
+							<p class="icon-name", id="js">Java Script</p>
 						</div>
 					</div>
+					<div class="row">
+						<div class="col md-5 mt-5 text-center image-hover">
+							<img class="img-fluid" src="./images/bootstrap_icon.png" alt=""/>
+							<p class="icon-name", id="bootstrap">Bootstrap</p>
+						</div>
+						<div class="col md-5 mt-5 text-center image-hover">
+							<img class="img-fluid" src="./images/SQL_logo.jpg" alt=""/>
+							<p class="icon-name", id="SQL">SQL</p>						
+						</div>
+						<div class="col md-5 mt-5 text-center image-hover">
+							<img class="img-fluid" src="./images/ASP_logo.png" alt=""/>
+							<p class="icon-name", id="ASP">ASP.NET Framework</p>
+						</div>
+					</div>
+					<div class="row" id="skills">
+						<div class="col md-5 mt-5 text-center image-hover">
+							<img class="img-fluid" src="./images/git_logo.png" alt=""/>
+							<p class="icon-name", id="git">Source Control</p>
+						</div>
+						<div class="col md-5 mt-5 text-center image-hover">
+							<img class="img-fluid" src="./images/visualStudio.png" alt=""/>
+							<p class="icon-name", id="visualStudio">Visual Studio</p>
+						</div>
+						<div class="col md-5 mt-5 text-center image-hover">
+							<img class="img-fluid" src="./images/swift_logo.jpg" alt=""/>
+							<p class="icon-name", id="swift">Swift</p>
+						</div>
+					</div>
+					<div class="row" id="skills">
+						<div class="col md-5 mt-5 text-center image-hover">
+							<img class="img-fluid" src="./images/python_logo.png" alt=""/>
+							<p class="icon-name", id="python">Python</p>
+						</div>
+						<div class="col md-5 mt-5 text-center image-hover">
+							<img class="img-fluid" src="./images/CSharp.png" alt=""/>
+							<p class="icon-name", id="cSharp">C#</p>
+						</div>
+					</div>
+				</div>
+				<div>
 						<p><center>These are the development skills that I have acquired on my journey on becoming a Software developer!</center></p>
 				</div>
 		</div>
@@ -112,9 +145,7 @@
 	
 		<!-- Portfolio -->
 		<div id="portfolio">
-			<div class="portfolio-head">
-				<h2>Portfolio</h2>
-			</div>
+			<h2 class="portfolio-head">Portfolio</h2>
 			<div class="container text-white text-center">
 				<div class="row">
 					<div class="col-md-4 pt-5 ">
@@ -144,26 +175,7 @@
 				</div>
 				<p><center><strong>You can find a link to all my projects below by clicking on my GitHub Icon.</strong></center></p>
 			</div>
-		</div>
-		<!-- /Portfolio -->
 		
-		<!-- Contact me -->
-		<!-- I need to make sure that I add a contact form once I figure out how to do it-->
-		
-		<footer id="contact">
-			<div class="contact">
-				<h2>Contact me</h2>
-				<ul>
-				<h5>Connect with me on linkedin</h5>
-					<li><a href="https://www.linkedin.com/in/suhaib-al-tamimi" target="_blank"><img src="./images/Linkedin.png"></a></li>
-					<li><a href="https://github.com/coderSuhaib" target="_blank"><img src="./images/GitHub.png"></a></li>
-				</ul>
-			</div>
-		
-		</footer>
-		
-		<!-- /Contact me-->
-
 		<!-- Party Rock modal -->
 			<div class="modal fade" id="Party">
 				<div class="modal-dialog" role="document">
@@ -260,9 +272,29 @@
 					</div>
 				</div>
 			</div>
+		</div>
 		<!-- /Login project modal-->
+
+	<!-- /Portfolio -->
+		
+		<!-- Contact me -->
+		<!-- I need to make sure that I add a contact form once I figure out how to do it-->
+		
+		<footer id="contact">
+				<div class="contact">
+					<h2>Contact me</h2>
+					<ul>
+					<h5>Find me on</h5>
+						<li><a href="https://www.linkedin.com/in/suhaib-al-tamimi" target="_blank"><img src="./images/Linkedin.png"></a></li>
+						<li><a href="https://github.com/coderSuhaib" target="_blank"><img src="./images/GitHub.png"></a></li>
+					</ul>
+				</div>
+			
+		</footer>
+			
+			<!-- /Contact me-->
 	
-	</div>
+	
 	<!-- / Page Content  -->
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
